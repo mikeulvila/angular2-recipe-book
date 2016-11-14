@@ -7,7 +7,7 @@ import {Recipe} from "../recipe";
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [];
-  recipe = new Recipe('Dummy', 'Dummy description', 'http://www.coastalpacificre.com/wp-content/uploads/2015/03/placeholder_male1.jpg')
+  recipe = new Recipe('Dummy', 'Dummy description', 'http://www.hopeclubhouse.org/wp-content/uploads/2015/07/profile-picture-placeholder.png')
   constructor() { }
 
   ngOnInit() {
